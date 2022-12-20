@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+    integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css" />
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+  <div class="container">
+    <header class="header">
+      <div class="header-box ">
+        <div class="logo ">
+          <svg class="logo-symbol">
+            <use xlink:href="./img/svg/logo.svg#logo"></use>
+          </svg>
+        </div>
+        <!-- /.logo -->
+        <div class="contact ">
+          <a class="phone" href="#">8-800-700-60-50</a>
+          <div class="work-line">
+
+            <div class="dot"></div>
+            <p class="working-day"> Пн-Вс: 9:00 - 21:00</p>
+          </div>
+          <!-- /.work-line -->
+        </div>
+        <!-- /.contact -->
+
+        <div class="socials ">
+          <p>Быстрая связь с нами в мессенджерах:</p>
+          <div class="socials__icons">
+            <a href="#">
+
+              <svg class="telegram-image">
+                <use xlink:href="./img/svg/telegram.svg#telegram"></use>
+              </svg>
+            </a>
+            <a href="#">
+
+              <svg class="what-image">
+                <use xlink:href="./img/svg/what`s-app.svg#what"></use>
+              </svg>
+            </a>
+          </div>
+          <!-- /.socials__icons -->
+        </div>
+        <!-- /.socials -->
+        <button class="button ">
+          Заказать консультацию
+        </button>
+        <!-- /.button -->
+        <div id="box_menu" class="box_menu">
+          <input hidden type="checkbox" id="burger" />
+          <label class="burger" for="burger">
+            <img class="burger-icon" src="./img/png/burger.png" alt=" burger image" />
+
+            <!-- /.burger-icon -->
+          </label>
+          <nav>
+            <ul class="header-list">
+              <li class="header-list__item">
+                <a class="phone" href="#">8-800-700-60-50</a>
+              </li>
+              <!-- /.header-list__item -->
+              <li class="header-list__item">
+                <a href="#">
+
+                  <svg class="telegram-image">
+                    <use xlink:href="./img/svg/telegram.svg#telegram"></use>
+                  </svg>
+                </a>
+              </li>
+              <!-- /.header-list__item -->
+              <li class="header-list__item">
+                <a href="#">
+
+                  <svg class="what-image">
+                    <use xlink:href="./img/svg/what`s-app.svg#what"></use>
+                  </svg>
+                </a>
+              </li>
+              <!-- /.header-list__item -->
+              <li class="header-list__item">
+                <a href="#resources">Resources</a>
+              </li>
+              <!-- /.header-list__item -->
+            </ul>
+            <!-- /.header-list -->
+          </nav>
+        </div>
+        <!-- /.box_menu -->
+      </div>
+      <!-- /.container -->
+    </header>
+    <!-- /.header -->
+  </div>
+  <!-- /.container -->
+
+  <main class="main ">
+    <section class="section hero">
+      <div class="container row">
+        <div class="text col-xl-8 col-sm-12">
+          <h1>Бережная уборка квартир и домов в СПБ<span class="light">по фиксированной стоимости от 80₽/м²</span> <span
+              class="title-explanation"> с
+              гарантий качества по договору</span>
+          </h1>
+          <p class="offer">Виберите вид уборки, получите поточний расчет стоимости и скидку 10% на первий заказ</p>
+          <div class="bnutton-box">
+            <button class="button blue">Рассчитать стоимость</button>
+            <button class="button yellow">Выбрать вид уборки</button>
+            <!-- /.button -->
+          </div>
+          <!-- /.bnutton-box -->
+        </div>
+        <!-- /.text -->
+        <div class="image text col-xl-4 col-sm-12">
+          <div class="image-text">
+            <div class="pin"></div>
+            <!-- /.pin -->
+            <p>Убрано <span class="blue-text">более 535</span> объектов</p>
+          </div>
+          <!-- /.image-text -->
+        </div>
+        <!-- /.image -->
+      </div>
+      <!-- /.container -->
+    </section>
+    <!-- /.section -->
+    <section class="section calculation ">
+      <div class="container">
+        <div class="adverticing-list row">
+          <div class="adverticing-list__item col-3 col-lg-6">
+            <p>Немецкое <br>и Американское оборудование</p>
+            <div>
+              <img class="adverticing-image" src="./img/png/calculation/vacuumCleaner.png" alt="vacuum Image">
+              <!-- <svg>
+                <use xlink:href="./img/png/calculation/vacuumCleaner.svg#vac"></use>
+              </svg> -->
+            </div>
+            <!-- /.adverticing-image -->
+          </div>
+          <!-- /.adverticing-list__item -->
+          <div class="adverticing-list__item col-3 col-lg-6">
+            <p>Гипоаллергенные безопасные моющие</p>
+            <div>
+              <img class="adverticing-image" src="./img/png/calculation/hypo.png" alt="vacuum Image">
+              <!-- <svg>
+                <use xlink:href="./img/png/calculation/vacuumCleaner.svg#vac"></use>
+              </svg> -->
+            </div>
+            <!-- /.adverticing-image -->
+          </div>
+          <!-- /.adverticing-list__item -->
+          <div class="adverticing-list__item col-3 col-lg-6">
+            <p>Гипоаллергенные безопасные моющие</p>
+            <div>
+              <img class="adverticing-image" src="./img/png/calculation/hands.png" alt="vacuum Image">
+              <!-- <svg>
+                <use xlink:href="./img/png/calculation/vacuumCleaner.svg#vac"></use>
+              </svg> -->
+            </div>
+            <!-- /.adverticing-image -->
+          </div>
+          <!-- /.adverticing-list__item -->
+          <div class="adverticing-list__item col-3 col-lg-6">
+            <p>Соблюдаем санитарные нормы</p>
+            <div>
+              <img class="adverticing-image" src="./img/png/calculation/star.png" alt="vacuum Image">
+              <!-- <svg>
+                <use xlink:href="./img/png/calculation/vacuumCleaner.svg#vac"></use>
+              </svg> -->
+            </div>
+            <!-- /.adverticing-image -->
+          </div>
+          <!-- /.adverticing-list__item -->
+        </div>
+        <!-- /.adverticing-list -->
+        <ul class="calculation-list">
+          <li class="calculation-list__item">
+            <a href="#">Услуги</a>
+          </li>
+          <!-- /.calculation-list__item -->
+          <li class="calculation-list__item">
+            <a href="#">Рассчитать стоимость</a>
+          </li>
+          <!-- /.calculation-list__item -->
+          <li class="calculation-list__item active">
+            <a href="#">Почему мы</a>
+          </li>
+          <!-- /.calculation-list__item -->
+          <li class="calculation-list__item">
+            <a href="#">Как мы делаем уборку</a>
+          </li>
+          <!-- /.calculation-list__item -->
+          <li class="calculation-list__item">
+            <a href="#">Отзывы</a>
+          </li>
+          <!-- /.calculation-list__item -->
+          <li class="calculation-list__item">
+            <a href="#">Акции</a>
+          </li>
+          <!-- /.calculation-list__item -->
+        </ul>
+        <!-- /.calculation-list -->
+        <h2>Калькулятор стоимости уборки<span class="light">с точностью до 98%</span> </h2>
+        <p class="subtitle">Это бесплатно и ни к чему не обязывает!</p>
+        <div class="calculation-box none">
+          <h3>Отлично! Ваши ответы получены, менеджер уже приступает к расчёту</h3>
+          <p class="subtitle">Где вам удобнее получить расчёт?</p>
+        </div>
+        <!-- /.calculation-box -->
+      </div>
+      <!-- /.container -->
+    </section>
+    <!-- /.section -->
+    <section class="section do-you-know">
+      <div class="container">
+        <div class="text-box">
+
+          <button class="button yellow">
+            А вы знали?
+          </button>
+          <!-- /.button -->
+          <h2>
+            <span class="light"> 70% клининговых компаний в СПБ, зачастую </span>подвергают своих клиентов рискам и
+            дискомфорту.
+          </h2>
+          <p class="subtitle">И вот некоторые факты, с которыми вы можете столкнуться, обращаясь в другие компании:</p>
+        </div>
+        <div class="know-list">
+          <div class="know-list__item">
+            <div class="know-list__item__image"></div>
+            <!-- /.know-list__item__image -->
+            <div class="explanation-box">
+
+              <h3>Чёрная касса</h3>
+              <p>Клининговые компании завлекают клиентов обманчиво низкой стоимостью. Менеджеры умалчивают стоимость
+                доп.
+                работ, а на объекте, когда клиенту сложно отказать, насчитывают стоимость выше заявленной.</p>
+            </div>
+            <!-- /.explanation-box -->
+          </div>
+          <!-- /.know-list__item -->
+          <div class="know-list__item">
+            <div class="know-list__item__image"></div>
+            <!-- /.know-list__item__image -->
+            <div class="explanation-box">
+
+              <h3>Чёрная касса</h3>
+              <p>Клининговые компании завлекают клиентов обманчиво низкой стоимостью. Менеджеры умалчивают стоимость
+                доп.
+                работ, а на объекте, когда клиенту сложно отказать, насчитывают стоимость выше заявленной.</p>
+            </div>
+            <!-- /.explanation-box -->
+          </div>
+          <!-- /.know-list__item -->
+          <div class="know-list__item">
+            <div class="know-list__item__image"></div>
+            <!-- /.know-list__item__image -->
+            <div class="explanation-box">
+
+              <h3>Чёрная касса</h3>
+              <p>Клининговые компании завлекают клиентов обманчиво низкой стоимостью. Менеджеры умалчивают стоимость
+                доп.
+                работ, а на объекте, когда клиенту сложно отказать, насчитывают стоимость выше заявленной.</p>
+            </div>
+            <!-- /.explanation-box -->
+          </div>
+          <!-- /.know-list__item -->
+          <div class="know-list__item">
+            <div class="know-list__item__image"></div>
+            <!-- /.know-list__item__image -->
+            <div class="explanation-box">
+
+              <h3>Чёрная касса</h3>
+              <p>Клининговые компании завлекают клиентов обманчиво низкой стоимостью. Менеджеры умалчивают стоимость
+                доп.
+                работ, а на объекте, когда клиенту сложно отказать, насчитывают стоимость выше заявленной.</p>
+            </div>
+            <!-- /.explanation-box -->
+          </div>
+          <!-- /.know-list__item -->
+          <div class="know-list__item">
+            <div class="know-list__item__image"></div>
+            <!-- /.know-list__item__image -->
+            <div class="explanation-box">
+
+              <h3>Друзья, Будьте внимательны!</h3>
+              <p>При выборе клинговой компании и заказе уборки, внимательно читайте договор на оказание услуг</p>
+              <a href="#">Посмотреть договор</a>
+            </div>
+            <!-- /.explanation-box -->
+          </div>
+          <!-- /.know-list__item -->
+        </div>
+        <!-- /.know-list -->
+      </div>
+      <!-- /.text-box -->
+
+      <!-- /.container -->
+    </section>
+    <!-- /.section -->
+  </main>
+  <!-- /.main -->
+  <footer class="footer"></footer>
+  <!-- /.footer -->
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
